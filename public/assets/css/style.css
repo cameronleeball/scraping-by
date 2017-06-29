@@ -1,0 +1,26 @@
+#notes {
+    position: fixed;
+    bottom: 25px;
+    display: inline-block;
+}
+
+.img-row {
+    height: 560px;
+}
+.content-row {
+    bottom: 25px;
+    display: inline-block;
+}
+
+ textarea, input {
+        display: inline-block;
+        width: 100%;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 175px;
+        font-size: 18px;
+      }

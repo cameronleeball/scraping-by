@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="img-row row">
+        <div class="col-xs-12 text-center">
+            <img src="/assets/img/smile.jpg" alt="tooth" />
+            <h1>...scraping that plaque. </h1>
+        </div>
+    </div>
+    <div class="content-row row">
+        {{#each content}}
+        <div class="article col-md-8" data-id="{{this.id}}">
+            <div class="panel">
+                <h4>{{this.title}}<small>{{this.date}}</small></h4>
+                <a href="{{this.link}}">View Article</a>
+            </div>
+        </div>
+        {{/each}}
+        <div id="notes" class="col-md-4">
+        </div>
+    </div>
+</div>
